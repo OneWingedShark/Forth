@@ -1,0 +1,22 @@
+project Forth is
+
+   for Source_Dirs use (".", "src\**");
+   for Object_Dir use "obj";
+   for Exec_Dir use ".";
+
+   package Ide is
+      for Documentation_Dir use "doc";
+   end Ide;
+
+   for Main use ("test.adb");
+
+   package Builder is
+      for Default_Switches ("ada") use ("-j4", "-k", "-C", "-g", "-s", "-m");
+   end Builder;
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-g", "-O2", "-gnatn", "-gnato", "-fstack-check", "-gnatE", "-gnata", "-gnat83", "-gnat12");
+   end Compiler;
+
+end Forth;
+
