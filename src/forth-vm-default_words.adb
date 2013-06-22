@@ -36,6 +36,7 @@ begin
 	Define( Result, ":",		Define'Access			);
 	Define( Result, ";",		End_Define'Access		);
 	Define( Result, "WORDS",	Words'Access			);
+	Define( Result, "SEE",		See'Access			);
 
 
 	Define( Result, "BYE",		Terminate_Execution'Access	);

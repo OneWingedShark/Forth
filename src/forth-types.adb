@@ -211,6 +211,7 @@ Package Body Forth.Types is
 	    end;
     End Parse_Cell;
 
+
     Function Convert_Data( Item : Cell ) Return Boolien is
       (case Item.Data_Type is
        when ftBoolean	=> Item.Boolean_Value,
@@ -251,6 +252,29 @@ Package Body Forth.Types is
 					Length => Length(Item.String_Value)),
        when ftBLOB	=> Item.BLOB_Value
       );
+
+    Function Convert( Item : Cell; Target : Element_Type ) Return Cell is
+	Function TOS(Input : US.Unbounded_String) Return String
+	      renames US.To_String;
+
+	Function Value Return Boolien		is ( Item.Boolean_Value );
+	Function Value Return Integer_64	is ( Item.Integer_Value );
+	Function Value Return IEEE_Float_64	is ( Item.Float_Value );
+	Function Value Return String		is ( TOS(Item.String_Value) );
+	Function Value Return BLOB		is ( Item.BLOB_Value );
+	D:Cell;
+    begin
+	Return Result : Cell( Data_Type => Target ) do
+	    case Target is
+	    when ftBoolean	=> Result.Boolean_Value:= Convert_Data(Item);
+	    when ftInteger	=> Result.Integer_Value:= Convert_Data(Item);
+	    when ftFloat	=> Result.Float_Value:=   Convert_Data(Item);
+	    when ftString	=> Result.String_Value:=  Convert_Data(item);
+	    when ftBLOB		=> Result.BLOB_Value:=    Convert_Data(Item);
+	    end case;
+	end return;
+    end Convert;
+
 
     Function ">" ( Left, Right : Cell ) Return Boolean is
 	(if Left = Right then false else not (Left < Right));

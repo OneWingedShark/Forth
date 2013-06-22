@@ -49,6 +49,7 @@ Package Forth.Types  with Preelaborate is
 
     -- Definitions for the basic data-types.
     Type Element_Type is ( ftBoolean, ftInteger, ftFloat, ftString, ftBLOB );
+    Type Type_Array is Array( Positive Range <> ) of Element_Type;
 
 
     -- BLOB defines a collection of variable-length, untyped data.
@@ -93,6 +94,8 @@ Package Forth.Types  with Preelaborate is
     -- otherwise, OPERAND_ERROR is raised.
     Function Parse_Cell( Number : String; Base : Positive:= 10 ) return Cell;
 
+    Function Convert( Item : Cell; Target : Element_Type ) Return Cell
+      with post => Convert'Result.Data_Type = Target;
 
     Function Image( Item : Cell ) Return String;
 

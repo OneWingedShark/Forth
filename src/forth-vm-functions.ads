@@ -102,6 +102,10 @@ Package Forth.VM.Functions with Preelaborate is
     --	Displays the words contained in the dictionary,
     Procedure Words( State : not null access Forth.VM.Interpreter );
 
+    -- SEE
+    --	Displays the definition of the word following.
+    Procedure See( State : not null access Forth.VM.Interpreter );
+
 End Forth.VM.Functions;
 
 Pragma Preelaborate(Forth.VM.Functions);

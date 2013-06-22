@@ -20,6 +20,56 @@ Package Body Forth.VM.Functions is
 
     Procedure Put_Line( Input : String ) renames GNAT.IO.Put_Line;
 
+    Function Advance( State : not null access Forth.VM.Interpreter ) return Cell is
+    begin
+	declare
+	    Use Forth.String_Vector;
+	    Data : Cursor := Next(State.Cursor);
+	    String_Data : Constant String:= Element(Data);
+	begin
+	    State.Input.Delete( Data );
+	    -- Creates a numeric cell if the value is numeric.
+	    Return Parse_Cell( String_Data );
+	Exception
+	    -- Otherwise, creates a cell of the string.
+	    When OPERAND_ERROR => Return Create_Cell( String_Data );
+	end;
+    end Advance;
+
+    Procedure Advance(	State : not null access Forth.VM.Interpreter;
+			Items : Natural:= 1 ) is
+    begin
+	For Count in 1..Items loop
+	    Advance( State );
+	end loop;
+    end Advance;
+
+    Procedure Advance(	State	: not null access Forth.VM.Interpreter;
+			Data	: Type_Array;
+			Strict	: Boolean := True ) is
+    begin
+	For Item of Data loop
+	    declare
+		Result : Cell:= Advance( State );
+	    begin
+		if Result.Data_Type = Item then
+		    Push( Stack => State.Data, Item => Result );
+		elsif not Strict then
+		    declare
+			Conversion : Cell( Data_Type => Item ):=
+			  Convert(Result, Item);
+		    begin
+			Push( Stack => State.Data, Item => Conversion );
+		    end;
+		else
+		    Raise OPERAND_ERROR;
+		end if;
+	    end;
+	end loop;
+    end Advance;
+
+    --Procedure Advance( State : not null access Forth.VM.Interpreter; Items : Natural:= 1 );
+
 
     Procedure Terminate_Execution( State : not null access Forth.VM.Interpreter ) is
 	Pragma Unreferenced( State );
@@ -179,7 +229,6 @@ Package Body Forth.VM.Functions is
 
     Procedure End_Define( State : not null access Forth.VM.Interpreter ) is
     begin
-	null;
 	State.Mode:= not Compile;
     End End_Define;
 
@@ -193,6 +242,22 @@ Package Body Forth.VM.Functions is
     begin
 	State.Dictionary.Iterate( Print_Item'Access );
     end Words;
+
+    Procedure See( State : not null access Forth.VM.Interpreter ) is
+	Use US, Forth.Dictionary.Word_List;
+    begin
+	declare
+	    Name_Cell	: Constant Cell(ftString):= Advance(State);
+	    Name	: Constant String := To_String(Name_Cell.String_Value);
+	    Item	: Constant Cursor:= State.Dictionary.Find(Key => Name);
+	begin
+	    if Item = No_Element then
+		Put_Line( Name & " is undefined." );
+	    else
+		Put_Line( Key(Item) & ASCII.HT & Image(Element(Item)) );
+	    end if;
+	end;
+    end See;
 
 
 End Forth.VM.Functions;
