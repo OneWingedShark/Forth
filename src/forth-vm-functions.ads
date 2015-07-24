@@ -14,7 +14,13 @@ Package Forth.VM.Functions with Preelaborate is
 
 ----[	Nucleus layer		]-----------------------------------------------
 
---  !  *  */  */MOD  +  +!  -  /  /MOD  0<  0=  0>  1+  1-  2+
+
+
+   -- !		(n1 -- )
+   Procedure Store( State : not null access Forth.VM.Interpreter );
+   --*  */
+
+--*/MOD  +  +!  -  /  /MOD  0<  0=  0>  1+  1-  2+
 --  2-  2/  <  =  >  >R  ?DUP  @  ABS  AND  C!  C@  CMOVE
 --  CMOVE>  COUNT  D+  D<  DEPTH  DNEGATE  DROP  DUP  EXECUTE
 --  EXIT  FILL  I  J

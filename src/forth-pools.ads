@@ -7,7 +7,8 @@ Private Package Forth.Pools with Elaborate_Body, Preelaborate is
     use System.Storage_Pools, System.Storage_Elements;
 
      type User_Pool is new
-	  System.Storage_Pools.Root_Storage_Pool with null record;
+     System.Storage_Pools.Root_Storage_Pool with private
+     with Preelaborable_Initialization;
 
 
    procedure Allocate
@@ -34,7 +35,7 @@ Private Package Forth.Pools with Elaborate_Body, Preelaborate is
    subtype Subpool_Handle is Subpools.Subpool_Handle;
 
    type Mark_Release_Pool_Type (Pool_Size : Storage_Count) is new
-      Subpools.Root_Storage_Pool_With_Subpools with private;
+     Subpools.Root_Storage_Pool_With_Subpools with private;
 
    function Mark (Pool : in out Mark_Release_Pool_Type)
       return not null Subpool_Handle;
@@ -51,6 +52,7 @@ private
    type MR_Subpool is new Subpools.Root_Subpool with record
       Start : Storage_Count;
    end record;
+
    subtype Subpool_Indexes is Positive range 1 .. 10;
    type Subpool_Array is array (Subpool_Indexes) of aliased MR_Subpool;
 
@@ -61,7 +63,8 @@ private
       Next_Allocation : Storage_Count := 0;
       Markers         : Subpool_Array;
       Current_Pool    : Subpool_Indexes := 1;
-   end record;
+   end record
+   with Preelaborable_Initialization;
 
    overriding
    function Create_Subpool (Pool : in out Mark_Release_Pool_Type)
@@ -84,13 +87,13 @@ private
       Subpool : in out Subpool_Handle);
 
    overriding
-   function Default_Subpool_for_Pool (Pool : in Mark_Release_Pool_Type)
+   function Default_Subpool_for_Pool (Pool : in out Mark_Release_Pool_Type)
       return not null Subpool_Handle;
 
    overriding
    procedure Initialize (Pool : in out Mark_Release_Pool_Type);
 
 
---       type User_Pool is new
---             System.Storage_Pools.Root_Storage_Pool with null record;
+     type User_Pool is new
+           System.Storage_Pools.Root_Storage_Pool with null record;
 End Forth.Pools;

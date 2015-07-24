@@ -9,7 +9,8 @@ Limited With
 Forth.VM;
 
 Private With
-  Forth.Pools.BLOB_Pool;
+Forth.Pools;
+--  Forth.Pools.BLOB_Pool;
 
 Package Forth.Types  with Preelaborate is
 
@@ -154,7 +155,9 @@ Private
 
     -- Type_Pool defines a preelaborate_initalization type of subpool
     -- which we can then specify.
-    Package Type_Pool is new Forth.Pools.BLOB_Pool;
+--     Package Type_Pool is new Forth.Pools.BLOB_Pool;
+   package Type_Pool renames Forth.Pools;
+
 
     -- Various pool definitions.
     BLOBS: Type_Pool.User_Pool;

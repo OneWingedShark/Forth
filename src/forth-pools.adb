@@ -1,8 +1,12 @@
 
 With
 --Ada.Unchecked_Deallocate_Subpool,
-System.Storage_Pools.Subpools.Finalization,
 System.Address_To_Access_Conversions;
+
+Pragma Warnings(Off);
+With
+System.Storage_Pools.Subpools.Finalization;
+Pragma Warnings(On);
 
 
 Package Body Forth.Pools is
@@ -82,8 +86,8 @@ Package Body Forth.Pools is
 	end if;
     end Deallocate_Subpool;
 
-    function Default_Subpool_for_Pool (Pool : in Mark_Release_Pool_Type)
-				      return not null Subpool_Handle is
+    function Default_Subpool_for_Pool (Pool : in out Mark_Release_Pool_Type)
+				       return not null Subpool_Handle is
 	Marker	: Subpool_Array  renames Pool.Markers;
 	Current	: Constant System.Address := Marker(Pool.Current_Pool)'Address;
 

@@ -7,6 +7,7 @@
 -- view "does not have Preelaborable_Initialization".
 Generic
 Package Forth.Pools.BLOB_Pool with Preelaborate is
+   Pragma Preelaborate( Forth.Pools.BLOB_Pool );
 
     Type User_Pool is New Forth.Pools.User_Pool with private;
     pragma Preelaborable_Initialization( User_Pool );

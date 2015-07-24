@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 5" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 101" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file />
+    </file_marker>
+    <file_marker column=" 1" line=" 36" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 25" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-tgdico.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file />
+    </file_marker>
+    <file_marker column=" 15" line=" 7" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\example_3.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\example_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 7" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\example_3.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\example_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\example_3-b.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 96" >
+      <vfs_file>C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 41" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 42" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 63" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 244" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 691" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-textio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 244" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 39" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 76" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-strunb.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 6" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-types.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-types.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 90" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 89" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 93" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 90" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 37" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 90" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 37" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 38" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 43" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\s-stposu.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 34" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\s-spsufi.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 9" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 5" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 7" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 19" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 9" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 5" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 2" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 42" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\s-stoele.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 3" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 40" >
+      <vfs_file>C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\s-stposu.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-dictionary-word_list.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-data_stack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-vm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-vm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 8" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-vm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-types.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 9" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 19" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 5" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 9" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 80" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_file>C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Programming\Projects\Experimentation\Forth\forth.gpr</vfs_file>
+    <file_marker column=" 1" line=" 5">
+      <vfs_file >C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 101">
+      <vfs_file >C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file  />
+    </file_marker>
+    <file_marker column=" 1" line=" 36">
+      <vfs_file >C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 25">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-tgdico.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41">
+      <vfs_file >C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file  />
+    </file_marker>
+    <file_marker column=" 15" line=" 7">
+      <vfs_file >C:\Programming\Projects\Scratch\src\example_3.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Scratch\src\example_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 7">
+      <vfs_file >C:\Programming\Projects\Scratch\src\example_3.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Scratch\src\example_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Scratch\src\example_3-b.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 96">
+      <vfs_file >C:\Programming\Projects\Scratch\src\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 41">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 42">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 63">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 244">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 691">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-textio.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 244">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 39">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-suteio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 76">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\a-strunb.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 6">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-types.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-types.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 90">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 89">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 93">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 90">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 37">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 90">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 37">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 38">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 43">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\s-stposu.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 34">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\s-spsufi.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 9">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 5">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 7">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 19">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 9">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 5">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 2">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 42">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\s-stoele.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 3">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 40">
+      <vfs_file >C:\PROGRAMMING\GNAT\2014\lib\gcc\i686-pc-mingw32\4.7.4\adainclude\s-stposu.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-dictionary-word_list.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-data_stack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-vm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-vm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 8">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-vm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-types.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 9">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 19">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 5">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 9">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools-blob_pool.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 80">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_file >C:\Programming\Projects\Experimentation\Forth\src\forth-pools.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

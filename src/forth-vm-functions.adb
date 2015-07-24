@@ -104,6 +104,13 @@ Package Body Forth.VM.Functions is
 	end;
     end Index;
 
+
+   Procedure Store( State : not null access Forth.VM.Interpreter ) is
+   begin
+
+   end Store;
+
+
     Procedure Max( State : not null access Forth.VM.Interpreter ) is
     begin
 	if Left(State) > Right(State) then
